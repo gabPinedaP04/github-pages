@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+  --color-pallete1: #ffffff;
+  --color-pallete2: #5e9188;
+  --color-pallete3: #3e5954;
+  --color-pallete4:#253342;
+  --color-pallete5:#232226; 
+}
+
+#APODdiv{
+  background-color: aqua;
+  height: 100vh;
+
+}
+body{
+  background-color: var(--color-pallete5);
+}
