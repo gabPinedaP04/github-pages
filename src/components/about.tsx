@@ -3,10 +3,11 @@ import angularImg from '../assets/images/angular.png';
 import djangoImg from '../assets/images/djangologo.png';
 import gitImg from '../assets/images/git.png';
 import mysql from '../assets/images/mysql.png';
-import nextjsImg from '../assets/images/nextjs.png';
 import tailwindImg from '../assets/images/tailwind.png';
-
-
+import reactLogo from '../assets/images/react.png';
+import cssLogo from '../assets/images/css.png';
+import htmlLogo from '../assets/images/html.png';
+import vuejsLogo from '../assets/images/vue.png';
 
 
 
@@ -57,10 +58,10 @@ export default function About() {
             <div
                 className="relative overflow-hidden rounded-lg border bg-pallete4 select-none hover:shadow hover:shadow-teal-200 p-2">
                 <div className="flex h-[180px] flex-col justify-between rounded-md p-6">
-                    <img src={nextjsImg} className="h-12 w-12 fill-current" alt=""/>
+                    <img src={vuejsLogo} className="h-12 w-12 fill-current" alt=""/>
                  
                     <div className="space-y-2">
-                        <h3 className="font-bold text-white">NextJS</h3>
+                        <h3 className="font-bold text-white">VueJS</h3>
                         <p className="text-sm text-white">Server and Client Components. Use hook.</p>
                     </div>
                 </div>
@@ -110,6 +111,40 @@ export default function About() {
                  
                     <div className="space-y-2">
                         <h3 className="font-bold text-white">MySql</h3>
+                        <p className="text-sm text-white">Server and Client Components. Use hook.</p>
+                    </div>
+                </div>
+            </div>
+            <div
+                className="relative overflow-hidden rounded-lg border bg-pallete4 select-none hover:shadow hover:shadow-teal-200 p-2">
+                <div className="flex h-[180px] flex-col justify-between rounded-md p-6">
+                    <img src={reactLogo} className="h-12 w-12 fill-current" alt=""/>
+                 
+                    <div className="space-y-2">
+                        <h3 className="font-bold text-white">React</h3>
+                        <p className="text-sm text-white">Server and Client Components. Use hook.</p>
+                    </div>
+                </div>
+            </div>
+            <div
+                className="relative overflow-hidden rounded-lg border bg-pallete4 select-none hover:shadow hover:shadow-teal-200 p-2">
+                <div className="flex h-[180px] flex-col justify-between rounded-md p-6">
+                    <img src={htmlLogo} className="h-12 w-12 fill-current" alt=""/>
+                 
+                    <div className="space-y-2">
+                        <h3 className="font-bold text-white">HTML</h3>
+                        <p className="text-sm text-white">Server and Client Components. Use hook.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div
+                className="relative overflow-hidden rounded-lg border bg-pallete4 select-none hover:shadow hover:shadow-teal-200 p-2">
+                <div className="flex h-[180px] flex-col justify-between rounded-md p-6">
+                    <img src={cssLogo} className="h-12 w-12 fill-current" alt=""/>
+                 
+                    <div className="space-y-2">
+                        <h3 className="font-bold text-white">CSS</h3>
                         <p className="text-sm text-white">Server and Client Components. Use hook.</p>
                     </div>
                 </div>
