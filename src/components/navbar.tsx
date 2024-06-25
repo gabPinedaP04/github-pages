@@ -1,6 +1,6 @@
 export default function Navbar() {
   return (
-    <nav className="border-blue-700 bg-pallete4 dark:bg-blue dark:border-gray-700 fixed top-0 left-0 right-0 z-50">
+    <nav className="border-blue-700 bg-pallete4 dark:bg-blue fixed top-0 left-0 right-0 z-50">
     <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <a href="#" className="flex items-center space-x-3 rtl:space-x-reverse">
             <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">gPinedaP</span>
@@ -23,7 +23,7 @@ export default function Navbar() {
                     <a href="#Portfoliodiv" className="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Portfolio</a>
                 </li>
                 <li>
-                    <a href="#" className="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Contact</a>
+                    <a href="#Contacto" className="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Contact</a>
                 </li>
             </ul>
         </div>
