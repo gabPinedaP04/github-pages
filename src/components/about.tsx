@@ -20,7 +20,7 @@ export default function About() {
       <section className="text-gray-700 body-font">
         <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
           <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-            <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">About Me
+            <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">Sobre mí
             </h1>
             <p className="mb-8 leading-relaxed text-white">Soy estudiante de ingenieria de software y sistemas computacionales en la universidad La Salle Bajio.
               Me gusta la resolucion de problemas y estoy interesado en el desarrollo Web y Movil.
@@ -50,7 +50,7 @@ export default function About() {
                  
                     <div className="space-y-2">
                         <h3 className="font-bold text-white">Django</h3>
-                        <p className="text-sm text-white">Server and Client Components. Use hook.</p>
+                        <p className="text-sm text-white">He desarrollado aplicaciones web robustas y escalables utilizando Django.</p>
                     </div>
                 </div>
             </div>
@@ -62,7 +62,7 @@ export default function About() {
                  
                     <div className="space-y-2">
                         <h3 className="font-bold text-white">VueJS</h3>
-                        <p className="text-sm text-white">Server and Client Components. Use hook.</p>
+                        <p className="text-sm text-white">Conozco vue js y he desarrollado proyectos en este framework</p>
                     </div>
                 </div>
             </div>
@@ -74,7 +74,7 @@ export default function About() {
                  
                     <div className="space-y-2">
                         <h3 className="font-bold text-white">Angular</h3>
-                        <p className="text-sm text-white">Server and Client Components. Use hook.</p>
+                        <p className="text-sm text-white">Tengo experiencia en la creación de aplicaciones web utilizando Angular. También he utilizando Ionic</p>
                     </div>
                 </div>
             </div>
@@ -86,7 +86,7 @@ export default function About() {
                  
                     <div className="space-y-2">
                         <h3 className="font-bold text-white">Tailwind</h3>
-                        <p className="text-sm text-white">Server and Client Components. Use hook.</p>
+                        <p className="text-sm text-white">Utilizo Tailwind CSS para diseñar interfaces de usuario modernas y responsivas.</p>
                     </div>
                 </div>
             </div>
@@ -98,7 +98,7 @@ export default function About() {
                  
                     <div className="space-y-2">
                         <h3 className="font-bold text-white">Git</h3>
-                        <p className="text-sm text-white">Server and Client Components. Use hook.</p>
+                        <p className="text-sm text-white">Utilizo Git para el control de versiones en todos mis proyectos y seguir los cambios de manera eficiente. </p>
                     </div>
                 </div>
             </div>
@@ -111,7 +111,7 @@ export default function About() {
                  
                     <div className="space-y-2">
                         <h3 className="font-bold text-white">MySql</h3>
-                        <p className="text-sm text-white">Server and Client Components. Use hook.</p>
+                        <p className="text-sm text-white">Tengo experiencia en el diseño y gestión de bases de datos relacionales utilizando MySQL</p>
                     </div>
                 </div>
             </div>
@@ -122,7 +122,7 @@ export default function About() {
                  
                     <div className="space-y-2">
                         <h3 className="font-bold text-white">React</h3>
-                        <p className="text-sm text-white">Server and Client Components. Use hook.</p>
+                        <p className="text-sm text-white">Utilizo React para construir interfaces de usuario dinámicas y reactivas y la creación de componentes reutilizables.</p>
                     </div>
                 </div>
             </div>
@@ -133,7 +133,7 @@ export default function About() {
                  
                     <div className="space-y-2">
                         <h3 className="font-bold text-white">HTML</h3>
-                        <p className="text-sm text-white">Server and Client Components. Use hook.</p>
+                        <p className="text-sm text-white">Sólida comprensión de HTML lo que me permite crear estructuras web semánticas y estilos atractivos.</p>
                     </div>
                 </div>
             </div>
@@ -145,7 +145,7 @@ export default function About() {
                  
                     <div className="space-y-2">
                         <h3 className="font-bold text-white">CSS</h3>
-                        <p className="text-sm text-white">Server and Client Components. Use hook.</p>
+                        <p className="text-sm text-white">Utilizo css para elaborar mis propios diseños y dar la forma que desee a mis proyectos.</p>
                     </div>
                 </div>
             </div>

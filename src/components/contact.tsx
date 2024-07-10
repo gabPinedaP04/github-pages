@@ -1,9 +1,9 @@
 export default function Contact() {
     return (
-        <section className="bg-white dark:bg-gray-900" id="Contacto">
+        <section className="dark:bg-gray-900" id="Contacto">
             <div className="container px-6 py-12 mx-auto">
                 <div>
-                    <p className="font-medium text-blue-500 dark:text-blue-400">Contacto</p>
+                    <p className="font-medium text-blue-500 ">Contacto</p>
 
 
                 </div>

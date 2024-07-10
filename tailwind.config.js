@@ -1,4 +1,6 @@
 /** @type {import('tailwindcss').Config} */
+const colors = require('tailwindcss/colors')
+
 export default {
   content: [
     "./index.html",
@@ -12,6 +14,7 @@ export default {
         'pallete3': 'var(--color-pallete3)',
         'pallete4': 'var(--color-pallete4)',
         'pallete5': 'var(--color-pallete5)',
+        'blue' : colors.blue,
       },
     },
   },
