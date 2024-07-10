@@ -132,7 +132,7 @@ export default function APOD() {
           <img src={data.url} className="absolute inset-0 w-full h-full object-cover object-center" alt={data.title} />
           <div className="absolute w-full py-2.5 bottom-0 inset-x-0  text-white text-xs text-center leading-4">
             <h2 className='block  bg-gray-900 bg-opacity-50 my-2'>Image from NASA APOD API</h2>
-            <button id='btnRandom' onClick={handleClick} disabled={isDisabled} type="button" className={`text-white hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center me-2 bg-gray-500 ${isAnimated ? 'animate-none duration-1000' : ''} ${isLoading ? 'hidden' : 'block'}`} >
+            <button id='btnRandom' onClick={handleClick} disabled={isDisabled} type="button" className={`text-white hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center me-2 bg-pallete4 border-blue-600 ${isAnimated ? 'animate-none duration-1000' : ''} ${isLoading ? 'hidden' : 'block'}`} >
               Random Image
             </button>
             <button disabled type="button" className={`py-2.5 px-5 me-2 text-sm font-medium text-gray-900 bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-blue-700 focus:text-blue-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 inline-flex items-center ${isLoading ? 'block' : 'hidden'} `}>

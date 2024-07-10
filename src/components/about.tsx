@@ -50,7 +50,7 @@ export default function About() {
                  
                     <div className="space-y-2">
                         <h3 className="font-bold text-white">Django</h3>
-                        <p className="text-sm text-white">He desarrollado aplicaciones web robustas y escalables utilizando Django.</p>
+                        <p className="text-sm text-white">He desarrollado aplicaciones web con bases de datos en Django</p>
                     </div>
                 </div>
             </div>
@@ -145,7 +145,7 @@ export default function About() {
                  
                     <div className="space-y-2">
                         <h3 className="font-bold text-white">CSS</h3>
-                        <p className="text-sm text-white">Utilizo css para elaborar mis propios diseños y dar la forma que desee a mis proyectos.</p>
+                        <p className="text-sm text-white">Utilizo css para elaborar mis propios diseños y crear sitios responsivos.</p>
                     </div>
                 </div>
             </div>

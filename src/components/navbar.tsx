@@ -45,11 +45,11 @@ export default function Navbar() {
 
 
             <div
-                className={` ${isVisibleNavbar ? 'block' : 'hidden'} absolute inset-y-0 right-0 flex h-[calc(100vh-0rem)] w-full max-w-[20rem] flex-col rounded-xl bg-pallete4 bg-clip-border p-4 text-white shadow-xl shadow-blue-gray-900/5}`}>
-                <div className="p-4 mb-2">
+                className={` ${isVisibleNavbar ? 'block' : 'hidden'} absolute inset-y-0 right-0 flex h-[calc(100vh-0rem)] w-full max-w-[20rem] flex-col rounded-xl bg-pallete5 bg-clip-border p-4 text-white shadow-xl shadow-blue-gray-900/5}`}>
+                <div className="p-4 mb-2 ">
 
 
-                    <button onClick={closeNavbar} className="inline-block font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900 ">Cerrar</button>
+                    <button onClick={closeNavbar} className="inline-block font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900 ">&lt;Volver</button>
                 </div>
                 <nav className="flex min-w-[240px] flex-col gap-1 p-2 font-sans text-base font-normal text-blue-gray-700">
                     <div role="button"
