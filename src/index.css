@@ -18,3 +18,13 @@
 body{
   background-color: var(--color-pallete5);
 }
+
+path{
+  fill: white;
+}
+svg{
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  padding-right: 5%;
+}

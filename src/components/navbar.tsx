@@ -45,11 +45,15 @@ export default function Navbar() {
 
 
             <div
-                className={` ${isVisibleNavbar ? 'block' : 'hidden'} absolute inset-y-0 right-0 flex h-[calc(100vh-0rem)] w-full max-w-[20rem] flex-col rounded-xl bg-pallete5 bg-clip-border p-4 text-white shadow-xl shadow-blue-gray-900/5}`}>
+                className={`ease-in-out duration-300 absolute inset-y-0 right-0 flex h-[calc(100vh-0rem)] w-full max-w-[20rem] flex-col rounded-xl bg-pallete5 bg-clip-border p-4 text-white shadow-xl shadow-blue-gray-900/5 transform transition-transform ${isVisibleNavbar ? 'translate-x-0 opacity-100' : 'translate-x-full opacity-0'
+                    }`}
+            >
                 <div className="p-4 mb-2 ">
 
 
-                    <button onClick={closeNavbar} className="inline-block font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900 ">&lt;Volver</button>
+                    <button onClick={closeNavbar} className="inline-block font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900 ">
+                        <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 122.88 108.06"><title>back-arrow</title><path d="M63.94,24.28a14.28,14.28,0,0,0-20.36-20L4.1,44.42a14.27,14.27,0,0,0,0,20l38.69,39.35a14.27,14.27,0,0,0,20.35-20L48.06,68.41l60.66-.29a14.27,14.27,0,1,0-.23-28.54l-59.85.28,15.3-15.58Z" /></svg>
+                        Volver</button>
                 </div>
                 <nav className="flex min-w-[240px] flex-col gap-1 p-2 font-sans text-base font-normal text-blue-gray-700">
                     <div role="button"
@@ -87,18 +91,16 @@ export default function Navbar() {
                             <div
                                 className="relative grid items-center px-2 py-1 font-sans text-xs font-bold uppercase rounded-full select-none whitespace-nowrap bg-blue-gray-500/20 text-blue-gray-900">
                             </div>
-                            
+
                         </div>
                     </div>
                     <div role="button"
                         className="flex items-center w-full p-3 leading-tight transition-all rounded-lg outline-none text-start hover:bg-blue-gray-50 hover:bg-opacity-80 hover:text-blue-gray-900 focus:bg-blue-gray-50 focus:bg-opacity-80 focus:text-blue-gray-900 active:bg-blue-gray-50 active:bg-opacity-80 active:text-blue-gray-900">
                         <div className="grid mr-4 place-items-center">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"
-                                className="w-5 h-5">
-                                <path fill-rule="evenodd"
-                                    d="M18.685 19.097A9.723 9.723 0 0021.75 12c0-5.385-4.365-9.75-9.75-9.75S2.25 6.615 2.25 12a9.723 9.723 0 003.065 7.097A9.716 9.716 0 0012 21.75a9.716 9.716 0 006.685-2.653zm-12.54-1.285A7.486 7.486 0 0112 15a7.486 7.486 0 015.855 2.812A8.224 8.224 0 0112 20.25a8.224 8.224 0 01-5.855-2.438zM15.75 9a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0z"
-                                    clip-rule="evenodd"></path>
+                            <svg viewBox="0 0 8 6" xmlns="http://www.w3.org/2000/svg">
+                                <path d="m0 0h8v6h-8zm.75 .75v4.5h6.5v-4.5zM0 0l4 3 4-3v1l-4 3-4-3z" />
                             </svg>
+
                         </div>
                         <a href="#Contacto" onClick={closeNavbar}>Contacto</a>
                     </div>

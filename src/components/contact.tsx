@@ -18,7 +18,7 @@ export default function Contact() {
                             </svg>
                         </span>
 
-                        <h2 className="mt-4 text-lg font-medium text-gray-800 dark:text-white">Email</h2>
+                        <h2 className="mt-4 text-lg font-medium text-white">Email</h2>
                         <p className="mt-2 text-blue-500 dark:text-blue-400">gab.pinedap04@gmail.com</p>
                     </div>
 
@@ -33,7 +33,7 @@ export default function Contact() {
                             </svg>
                         </span>
 
-                        <h2 className="mt-4 text-lg font-medium text-gray-800 dark:text-white">Telefono</h2>
+                        <h2 className="mt-4 text-lg font-medium text-white">Telefono</h2>
                         <p className="mt-2 text-blue-500 dark:text-blue-400">+52 (477) 559-6542</p>
                     </div>
                 </div>
